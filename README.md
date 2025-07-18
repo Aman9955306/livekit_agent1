@@ -3,7 +3,9 @@
 | (in browser) |  token     |   /create-room       |  token     | (Cloud or Local)   |
 +--------------+            +---------------------+            +-------------------+
        |                                                               ^
-       | wss:// connect                                                |
+       | wss:// connect                           
+       
+       |
        v                                                               |
 +-------------------+           +--------------------------+          |
 |   agent.py (bot)  | <-------- |  Token from FastAPI      | ---------+
